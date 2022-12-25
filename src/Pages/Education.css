@@ -1,0 +1,36 @@
+.container-edu{
+    height: 77vh;
+    width: 100vw;
+    padding-top: 80px;
+    padding-left: 300px;
+    padding-right:250px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+  gap: 40px;
+  background: radial-gradient(circle, rgba(174,126,126,1) 0%, rgba(235,62,6,1) 100%);
+}
+
+.box{
+    border-radius: 15px;
+    /* border: 0.1px solid black; */
+    box-shadow: 0 0 2px 2px rgb(254, 251, 251);
+    border: 2px solid rgb(255, 254, 254);
+    width: 25vw;
+    height: 80%;
+    padding-top: 70px;
+    padding-left: 40px;
+    transition: transform 250ms;
+    background: radial-gradient(circle, rgb(100, 92, 92) 0%, rgb(6, 6, 6) 100%);
+color: rgb(243, 238, 238);
+}
+
+.box p{
+  font-size: 0.9rem;
+  line-height: 30px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+
+}
+.box:hover{
+  transform: translateY(-5px);
+  /* transform : scale(0.9) */
+}

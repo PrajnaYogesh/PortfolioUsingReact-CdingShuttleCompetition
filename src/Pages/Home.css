@@ -1,0 +1,29 @@
+.home-background{
+    background-color: rgb(221, 216, 210);
+    height: 77vh;
+    width: 100vw;
+    background-image: url('../Images/170827.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.home-para{
+    text-align: right;
+    color: White;
+    padding-top: 100px;
+    padding-right:380px ;
+   
+}
+
+.home-para  h1{
+    font-size: 4.5rem;
+    padding-bottom: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.home-para  h3{
+    font-size: 1.5rem;
+    
+  
+}
+
