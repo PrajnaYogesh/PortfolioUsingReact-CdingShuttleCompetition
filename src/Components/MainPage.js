@@ -21,7 +21,8 @@ function MainPage() {
 <Link className="menu" to='/about'> About </Link>
 <Link className="menu" to='/education'> Education </Link>
 <Link className="menu" to='/work'> Work Experience </Link>
-<Link className="menu" to='/resume'> Resume </Link>
+<Link className="menu" to='/projects'> Projects </Link>
+<Link className="menu" to='/resume'> Resume/Certificate </Link>
 <Link className="menu" to='/contact'> Contact </Link>
 </nav>
 
