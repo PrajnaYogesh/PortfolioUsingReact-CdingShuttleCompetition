@@ -11,7 +11,7 @@ import socialmedia from "../Images/social-media.jpg";
 function Projects() {
   return (
     <div className="Projects">
-      <h1 className="heading-center">Mini and Major Projects</h1>
+      <h1 className="heading-center">Full Stack MERN Projects</h1>
 
       <div className="mini-projects">
         <h3 className="project-name">1. KeyBoard</h3>

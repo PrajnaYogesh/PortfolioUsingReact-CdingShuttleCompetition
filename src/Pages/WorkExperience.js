@@ -6,27 +6,29 @@ import tcs from "./tcs.webp";
 import niit from "./niitLogo.png";
 
 function WorkExperience() {
-  const contentStyle = {
-    height: "470px",
-    color: "#141413",
-    lineHeight: "25px",
-    textAlign: "left",
-    display: "flex",
-    justifyContent: "center",
-    gap: "10px",
-    background:
-      "radial-gradient(circle, rgba(174,126,126,1) 0%, rgba(235,62,6,1) 100%)",
-    paddingTop: "20px",
-    paddingLeft: "40px",
-  };
+  // const contentStyle = {
+  //   height: "470px",
+  //   color: "#141413",
+  //   lineHeight: "5px",
+  //   textAlign: "left",
+  //   display: "flex",
+  //   justifyContent: "center",
+  //   alignItem:"center",
+  //   gap: "10px",
+  //   background:
+  //     "radial-gradient(circle, rgba(174,126,126,1) 0%, rgba(235,62,6,1) 100%)",
+  //   paddingTop: "20px",
+  //   paddingLeft: "40px",
+  // };
 
   return (
     <Carousel effect="fade">
       {/* TCS */}
-      <div>
-        <div style={contentStyle} className="mainP">
-          
-          <img className="image-style" src={tcs} alt="tcs image" />
+      <div className="outer-box">
+        <div className="contentStyle">
+          <div className="image-container-box">
+            <img className="image-style" src={tcs} alt="tcs image" />
+          </div>
 
           <div className="work-info">
             <h2 className="exp-heading">Experience and Responsibilities:</h2>
@@ -75,22 +77,17 @@ function WorkExperience() {
                 prioritize user stories for quick and easy delivery of
                 application to customers.
               </li>
-             
             </ul>
-            
-         
           </div>
-          
-       
-         
         </div>
       </div>
 
       {/* Infosys */}
-      <div>
-        <div style={contentStyle}>
-          <img className="image-style" src={Infy} alt="Infy image" />
-
+      <div className="outer-box">
+        <div className="contentStyle">
+          <div className="image-container-box">
+            <img className="image-style" src={Infy} alt="Infy image" />
+          </div>
           <div className="work-info">
             <h2 className="exp-heading">Experience and Responsibilities</h2>
             <h3> Role: Systems Engineer (06/2013 - 09/2015)</h3>
@@ -134,10 +131,11 @@ function WorkExperience() {
 
       {/* NIIT */}
 
-      <div>
-        <div style={contentStyle}>
-          <img className="image-style" src={niit} alt="niit image" />
-
+      <div className="outer-box">
+        <div className="contentStyle">
+          <div className="image-container-box">
+            <img className="image-style" src={niit} alt="niit image" />
+          </div>
           <div className="work-info">
             <h2 className="exp-heading">Experience and Responsibilities</h2>
             <h3> Role: Instructor (08/2012 - 04/2013)</h3>
