@@ -21,12 +21,14 @@ function About() {
           excited to make the leap and continue refining my skills with the
           right company
         </p>
-        <p>My hobbies include painting,listening to music,running and I also enjoy cooking!</p>
-              <p>
+        <p>
+          My hobbies include painting,listening to music,running and I also
+          enjoy cooking!
+        </p>
+        <p>
           Feel free to take a look at my portfolio and if you think I am the
           right candidate, please fill the contact form. Thank you!
         </p>
-        
       </div>
     </div>
   );

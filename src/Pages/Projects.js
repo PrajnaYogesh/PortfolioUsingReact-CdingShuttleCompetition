@@ -7,6 +7,7 @@ import jokes from "../Images/laugh.jfif";
 import moneyExchange from "../Images/exchange.jpg";
 import crypto from "../Images/OIP.jfif";
 import socialmedia from "../Images/social-media.jpg";
+import eCommerce from "../Images/eCommerce.png"
 
 function Projects() {
   return (
@@ -14,7 +15,66 @@ function Projects() {
       <h1 className="heading-center">Full Stack MERN Projects</h1>
 
       <div className="mini-projects">
-        <h3 className="project-name">1. KeyBoard</h3>
+        <h3 className="project-name">
+          1. SocialMedia Application (Major Project 1)
+        </h3>
+        <div className="project-info">
+          <a
+            href="https://client-app-vjz6b.ondigitalocean.app/#/login"
+            target="_blank"
+          >
+            {" "}
+            <img
+              className="mini-project-image"
+              src={socialmedia}
+              alt="socialmedia"
+            />
+          </a>
+          <p className="mini-project-description">
+            Developed a Social Media Application which have features like
+            signup, login, create profile,update profile , create post,
+            follow/unfollow an user, like/unlike post and delete user. To build
+            the client side of the project I have used technologies like
+            html,css,React,Router,React-Redux and to develop the server side I
+            used Node.js,Express.I have used Mongodb(Atlas) to store the user
+            information. To store the images I have used Cloudinary. I have
+            deployed the project using Digital Ocean.Click the image to view the
+            application.
+          </p>
+        </div>
+      </div>
+
+      <div className="mini-projects">
+        <h3 className="project-name">
+          2. E-Commerce Application (Major Project 2)
+        </h3>
+        <div className="project-info">
+          <a
+            href="https://e-commerce-client-5rway.ondigitalocean.app/"
+            target="_blank"
+          >
+            {" "}
+            <img
+              className="mini-project-image"
+              src={eCommerce}
+              alt="eCommerceApp"
+            />
+          </a>
+          <p className="mini-project-description">
+            Developed a  eCommerce Application - Posterz. This application
+            has wide range of posters related to Sports, Animation, TV-Shows.
+            User can browse through posters,sort-by-price,view newest-first, shop by
+            categories,top picks etc.User can place an order using
+            this application .This appliaction is built using various
+            technologies like html,css,javascript,React,Router,React-Redux in the front-end. To
+            develop the backend I have used Strapi(CMS). I have also used Stripe as
+            a payment gateway tool. Click the image to view the application.
+          </p>
+        </div>
+      </div>
+
+      <div className="mini-projects">
+        <h3 className="project-name">3. KeyBoard</h3>
         <div className="project-info">
           <a
             href="https://superlative-brigadeiros-99d095.netlify.app"
@@ -28,40 +88,6 @@ function Projects() {
             incorporated the tunes as well as volume button to increase/decrease
             volume. Deployed the project on Netlify. Click the image to view the
             application.
-          </p>
-        </div>
-      </div>
-
-      <div className="mini-projects">
-        <h3 className="project-name">2. Weather Forecast Application </h3>
-        <div className="project-info">
-          <a href="https://chipper-faloodeh-38ccea.netlify.app" target="_blank">
-            {" "}
-            <img className="mini-project-image" src={weather} alt="weather" />
-          </a>
-          <p className="mini-project-description">
-            Developed a Weather forecast application using html,css and
-            Javascript. I have used an api to fetch the weather related
-            information. Deployed the project on Netlify. Click the image to
-            view the application.
-          </p>
-        </div>
-      </div>
-
-      <div className="mini-projects">
-        <h3 className="project-name">3. Calculator</h3>
-        <div className="project-info">
-          <a href="https://dashing-flan-43a32f.netlify.app/" target="_blank">
-            {" "}
-            <img
-              className="mini-project-image"
-              src={calculator}
-              alt="calculator"
-            />
-          </a>
-          <p className="mini-project-description">
-            Developed a Calculator using html,css and Javascript.Deployed the
-            project on Netlify. Click the image to view the application.
           </p>
         </div>
       </div>
@@ -121,37 +147,41 @@ function Projects() {
         </div>
       </div>
 
-      {/* <p>Add news App, notes app, food recipe app / zomato app </p> */}
-
       <div className="mini-projects">
-        <h3 className="project-name">
-          7. SocialMedia Application (Major Project 1)
-        </h3>
+        <h3 className="project-name">7. Weather Forecast Application </h3>
         <div className="project-info">
-          <a
-            href="https://client-app-vjz6b.ondigitalocean.app/#/login"
-            target="_blank"
-          >
+          <a href="https://chipper-faloodeh-38ccea.netlify.app" target="_blank">
             {" "}
-            <img
-              className="mini-project-image"
-              src={socialmedia}
-              alt="socialmedia"
-            />
+            <img className="mini-project-image" src={weather} alt="weather" />
           </a>
           <p className="mini-project-description">
-            Developed a Social Media Application which have features like
-            signup, login, create profile,update profile , create post,
-            follow/unfollow an user, like/unlike post and delete user. To build
-            the client side of the project I have used technologies like
-            html,css,React,Router,React-Redux and to develop the server side I
-            used Node.js,Express.I have used Mongodb(Atlas) to store the user
-            informations. To store the images I have used Cloudinary. I have
-            deployed the project using Digital Ocean.Click the image to view the
-            application.
+            Developed a Weather forecast application using html,css and
+            Javascript. I have used an api to fetch the weather related
+            information. Deployed the project on Netlify. Click the image to
+            view the application.
           </p>
         </div>
       </div>
+
+      <div className="mini-projects">
+        <h3 className="project-name">8. Calculator</h3>
+        <div className="project-info">
+          <a href="https://dashing-flan-43a32f.netlify.app/" target="_blank">
+            {" "}
+            <img
+              className="mini-project-image"
+              src={calculator}
+              alt="calculator"
+            />
+          </a>
+          <p className="mini-project-description">
+            Developed a Calculator using html,css and Javascript.Deployed the
+            project on Netlify. Click the image to view the application.
+          </p>
+        </div>
+      </div>
+
+      {/* <p>Add news App, notes app, food recipe app / zomato app </p> */}
     </div>
   );
 }

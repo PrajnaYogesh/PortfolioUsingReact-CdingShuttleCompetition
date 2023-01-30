@@ -1,14 +1,14 @@
 .resume-section{
-    height: 77vh;
+    height: 80vh;
     width: 100vw;
-   padding-top: 50px;
+   padding-top: 100px;
     background: rgb(153,144,139);
     background: radial-gradient(circle, rgba(174,126,126,1) 0%, rgba(235,62,6,1) 100%);
 }
 
 
 .resume-section h1,h3{
-    padding: 5px;
+    padding: 5px 0px;
 }
 
 .resume-section h3{

@@ -26,7 +26,7 @@ function ContactForm() {
   };
 
   return (
-    <div className="Contact Form">
+    <div className="ContactForm">
       <h2>Contact Form</h2>
       <form className="cf" ref={form} onSubmit={sendEmail}>
         <div className="half left cf">

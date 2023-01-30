@@ -1,5 +1,6 @@
 .Projects{
     width: 100vw;
+   
     background: rgb(153,144,139);
     background: radial-gradient(circle, rgba(174,126,126,1) 0%, rgba(235,62,6,1) 100%);
 }
@@ -13,8 +14,8 @@
 .mini-projects{
     display: flex;
     flex-direction: column;
-    gap: 0px;
-}
+    width: 100vw;
+    }
 
 .project-name{
 border-top: 1px solid rgba(0, 0, 0, 0.2);
