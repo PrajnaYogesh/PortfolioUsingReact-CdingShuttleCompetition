@@ -8,6 +8,7 @@ import moneyExchange from "../Images/exchange.jpg";
 import crypto from "../Images/OIP.jfif";
 import socialmedia from "../Images/social-media.jpg";
 import eCommerce from "../Images/eCommerce.png"
+import notes from "../Images/notes.png"
 
 function Projects() {
   return (
@@ -177,6 +178,23 @@ function Projects() {
           <p className="mini-project-description">
             Developed a Calculator using html,css and Javascript.Deployed the
             project on Netlify. Click the image to view the application.
+          </p>
+        </div>
+      </div>
+
+      <div className="mini-projects">
+        <h3 className="project-name">9. Notes App using React</h3>
+        <div className="project-info">
+          <a href="https://mellow-quokka-0f7d96.netlify.app/" target="_blank">
+            {" "}
+            <img
+              className="mini-project-image"
+              src={notes}
+              alt="notesApp"
+            />
+          </a>
+          <p className="mini-project-description">
+            This application allows user to create ,delete and search a note.It also has a toggle mode.Click the image to view the application.
           </p>
         </div>
       </div>
