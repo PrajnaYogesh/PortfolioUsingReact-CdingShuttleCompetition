@@ -1,5 +1,6 @@
 .footerstyle{
     width: 100vw;
+    height: 10vh;
     background-color: rgb(7, 7, 7);
     display: flex;
     justify-content: space-between;
@@ -25,4 +26,57 @@
 .copyright{
     color: white;
   margin-right: 20px;   
+}
+
+
+@media only screen and (max-width: 768px) {
+
+.footerstyle{
+    width: 100vw;
+    height: 10vh;
+   
+}
+
+.footer{
+        gap: 20px;
+       
+}
+
+.parastyle{
+    
+    font-size: 1.2rem;
+}   
+
+.copyright{
+    font-size: 1rem; 
+}
+
+
+}
+
+
+@media only screen and (max-width: 640px) {
+
+    .footerstyle{
+    width: 100vw;
+    height: 10vh;
+   padding: 20px 5px;
+}
+
+.footer{
+        gap: 15px;
+        margin-left: 5px;  
+   
+}
+
+.parastyle{
+    
+    font-size: 0.7rem;
+}   
+
+.copyright{
+    font-size: 0.6rem; 
+    margin-right: 3px; 
+}
+
 }

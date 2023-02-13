@@ -1,0 +1,140 @@
+.edu-tech-container{
+    height: 80vh;
+    width: 100vw;
+/* border: 2px solid red; */
+
+}
+
+
+.education{
+    height:30% ;
+    width: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+}
+
+.education h2{
+    text-decoration: underline;
+    margin-bottom: 10px;
+    padding-top: 20px;
+    color: rgb(227, 208, 208);
+}
+
+.edu-box{
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 30px;
+}
+
+.college-box{
+    border: 1px solid rgb(227, 208, 208);
+    box-shadow: inset 0 -3em 3em rgba(165, 65, 65, 0.1), 0 0 0 2px rgb(236, 142, 142),
+    0.3em 0.3em 1em rgba(48, 46, 46, 0.3);
+    width: 25%;
+    height: 100%;
+    padding: 20px;
+    font-weight: 600;
+
+}
+
+.technology-skills{
+   width: 100%;
+   height: 60%;
+    
+    
+}
+
+
+.skills-box h2{
+    margin-bottom: 20px;
+    padding-top: 100px;
+    text-decoration: underline;
+    color: rgb(227, 208, 208);
+
+
+}
+
+.tech-skill{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    
+}
+
+
+.skill-img{
+    width: 80px;
+    height: 80px;
+    
+}
+
+
+
+
+ @media only screen and (max-width: 768px) {
+.education h2{
+        
+        margin-bottom: 5px;
+        padding-top: 5px;
+       
+    }
+    
+    
+    .college-box{
+        
+        width: 25%;
+        height: 100%;
+        padding: 20px;
+        
+        font-size: 0.8rem;
+    
+    }
+    
+       
+    
+    .skills-box h2{
+        margin-bottom: 10px;
+        padding-top: 70px;
+      
+    
+    
+    }
+    
+   
+    
+    
+    .skill-img{
+        width: 60px;
+        height: 60px;
+        
+    }
+} 
+
+
+@media only screen and (max-width:640px){
+
+    .education h2{
+        
+        margin-bottom: 18px;
+        padding-top: 10px;
+       
+    }
+    
+    .edu-box{
+        width: 100%;
+        padding-inline:20px;
+        }
+    
+    .college-box{
+        
+        width:fit-content;
+        padding: 16px;
+        
+        font-size: 0.8rem;
+    
+    }
+
+}

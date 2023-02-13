@@ -6,21 +6,7 @@ import tcs from "./tcs.webp";
 import niit from "./niitLogo.png";
 
 function WorkExperience() {
-  // const contentStyle = {
-  //   height: "470px",
-  //   color: "#141413",
-  //   lineHeight: "5px",
-  //   textAlign: "left",
-  //   display: "flex",
-  //   justifyContent: "center",
-  //   alignItem:"center",
-  //   gap: "10px",
-  //   background:
-  //     "radial-gradient(circle, rgba(174,126,126,1) 0%, rgba(235,62,6,1) 100%)",
-  //   paddingTop: "20px",
-  //   paddingLeft: "40px",
-  // };
-
+  
   return (
     <Carousel effect="fade">
       {/* TCS */}

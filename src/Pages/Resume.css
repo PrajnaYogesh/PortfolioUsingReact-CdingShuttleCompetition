@@ -23,3 +23,35 @@
     
   }
 
+
+  @media only screen and (max-width: 768px) {
+    .resume-section{
+        height: 80vh;
+        width: 100vw;
+       padding-top: 100px;
+        background: rgb(153,144,139);
+        background: radial-gradient(circle, rgba(174,126,126,1) 0%, rgba(235,62,6,1) 100%);
+    }
+    
+    
+    .resume-section h1,h3{
+        padding: 5px 0px;
+    }
+    
+    h1{
+        font-size: 1.1rem;
+    }
+    .resume-section h3{
+        padding-bottom: 50px;
+        font-size: 0.8rem;
+    }
+    
+    .button-style{
+        width:150px;
+        background-color: rgb(222, 190, 151);
+        color: black;
+        margin: 0px 20px;
+        
+      }
+
+  }
