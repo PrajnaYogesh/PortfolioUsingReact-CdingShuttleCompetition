@@ -30,11 +30,11 @@ function ContactForm() {
       <h2>Contact Form</h2>
       <form className="cf" ref={form} onSubmit={sendEmail}>
         <div className="half left cf">
-          <input type="text" placeholder="Name" name="from_name" required="true"/>
-          <input type="email" placeholder="Email address" name="from_email" required="true"/>
+          <input type="text" placeholder="Name" name="from_name" required={true}/>
+          <input type="email" placeholder="Email address" name="from_email" required={true}/>
         </div>
         <div className="half right cf">
-          <textarea name="message" type="text" placeholder="Message" required="true"></textarea>
+          <textarea name="message" type="text" placeholder="Message" required={true}></textarea>
         </div>
         <input type="submit" value="Submit" id="input-submit" />
       </form>

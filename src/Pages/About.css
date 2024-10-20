@@ -19,7 +19,7 @@ height: 80vh;
 
 
 /* height: 77vh; */
-padding-left: 60px;
+padding-left: 40px;
 padding-top: 40px;
 
 transition: all ease 0.2s;
@@ -30,15 +30,14 @@ transition: all ease 0.2s;
 .my-image img{
     /* width:70%;
     height:60%; */
-    width: 200px;
-height: 200px;
+    width: 350px;
+height:350px;
     display: flex;
     align-items: start;
     justify-content: start;
-    /* border: 0.1px solid black; */
+   
     border-radius: 50%;
-    /* box-shadow: 0px 6px 5px #ccc; */
-    /* border: 1px solid black; */
+    
     box-shadow: 0px 5px 10px 0px #5b5858;
 }
 

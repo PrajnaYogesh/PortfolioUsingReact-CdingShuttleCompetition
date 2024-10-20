@@ -26,11 +26,16 @@ align-items: center;
  
 }
 
+.nameStyle:hover{
+    color: rgb(248, 96, 9);  
+}
 
 .rightmenu{
    padding-inline: 10px;
   
 }
+
+
 
 .menu{
     color: rgb(248, 96, 9);
@@ -42,6 +47,7 @@ align-items: center;
    transition: ease-in 0.3s;
       
 }
+
 
 .menu:hover {
     /* transform: translateY(-20px); */
@@ -100,8 +106,15 @@ align-items: center;
     .container{
         width: 100vw;
         height: 10vh;
+        flex-direction: column;
+        justify-content:center;
+align-items: center;
         }
     
+        .heading{
+                padding: 2px;
+                      
+        }
       
     .nameStyle{
          padding-left: 20px;
@@ -113,9 +126,15 @@ align-items: center;
     
     
     .rightmenu{
-       padding-inline: 15px;
+       padding-inline: 5px;
       
     }
+
+    
+
+    
+
+  
     
     .menu{
         font-size: 0.7rem;
